@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name iothome-rescue)(type Legacy)(uri ${KIPRJMOD}/iothome-rescue.lib)(options "")(descr ""))
 )

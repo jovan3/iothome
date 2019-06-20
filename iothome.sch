@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:iothome-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -65,7 +65,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 2550 3200 2550
 $Comp
-L rohm_ba033st:BA033ST U1
+L iothome-rescue:BA033ST-rohm_ba033st U1
 U 1 1 5C3BBD10
 P 3200 1850
 F 0 "U1" H 3200 1975 50  0000 C CNN
@@ -92,7 +92,7 @@ Connection ~ 3200 2550
 Wire Wire Line
 	3200 2550 4000 2550
 $Comp
-L ESP8266_modules:ESP-01 U2
+L iothome-rescue:ESP-01-ESP8266_modules U2
 U 1 1 5C3BCC0E
 P 4800 1550
 F 0 "U2" H 4925 1675 50  0000 C CNN
@@ -271,7 +271,7 @@ Wire Wire Line
 	3100 5000 2600 5000
 Connection ~ 2600 5000
 $Comp
-L ESP8266_modules:ESP-01 U4
+L iothome-rescue:ESP-01-ESP8266_modules U4
 U 1 1 5C3C1924
 P 4200 4000
 F 0 "U4" H 4300 3450 50  0000 C CNN

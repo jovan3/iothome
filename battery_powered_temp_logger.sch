@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:iothome-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,9 +15,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ESP8266:ESP-201 U7
+L iothome-rescue:ESP-201-ESP8266 U7
 U 1 1 5C44522F
 P 5200 3750
+AR Path="/5C44522F" Ref="U7"  Part="1" 
+AR Path="/5C4451C9/5C44522F" Ref="U7"  Part="1" 
 F 0 "U7" H 5200 2978 50  0000 C CNN
 F 1 "ESP-201" H 5200 2887 50  0000 C CNN
 F 2 "" H 5200 3750 50  0001 C CNN
